@@ -1,0 +1,23 @@
+.header{
+    background-image: linear-gradient(to right, #672280, #A626D3);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px 20px 15px;
+}
+.leftHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.trollIcon{
+    width: 30px;
+}
+.title{
+    font-size: 20.75px;
+}
+.project{
+    font-size: 12px;
+}
