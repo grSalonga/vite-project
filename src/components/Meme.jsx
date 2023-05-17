@@ -1,8 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import Header from './Header'
-import Textbox from './Textbox'
 import '../styles/App.css'
-import data from '../memesData'
 
 export default function(){
     const [meme, setMeme] = useState({
@@ -12,7 +10,7 @@ export default function(){
     });
 
 
-    const [allMemeImages, setAllMemeImages] = useState(data)
+    const [allMemeImages, setAllMemeImages] = useState()
     const firstRender = useRef(true)
     
     function getNewImage(){
